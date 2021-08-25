@@ -10,6 +10,8 @@
 # create a github account
 
 * Github [https://github.com/](https://github.com/)
+* Add your name and github handle to [this spreadsheet](https://docs.google.com/spreadsheets/d/1fUkNKpJhvRc-RuIglaqqQeK0MBcqxyZ7pRzQv_ZFS9U/edit?usp=sharing)
 
-
- check out the "markdown" cheat sheet: [https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+check out the "markdown" cheat sheet: [https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+ 
+ 
