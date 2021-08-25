@@ -12,4 +12,4 @@
 * Github [https://github.com/](https://github.com/)
 
 
-## check out the "markdown" cheat sheet: [https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+ check out the "markdown" cheat sheet: [https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
