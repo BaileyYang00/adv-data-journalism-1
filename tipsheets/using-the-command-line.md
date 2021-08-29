@@ -15,15 +15,21 @@ When you’re in the command line, you are always in a particular place on your 
 
 _Examples_ 
 
-`~ > cd Desktop` : from your home directory this will take you to the Desktop (which is located in your home directory, i.e. /Users/you/Desktop)
+`cd Desktop` : from your home directory this will take you to the Desktop (which is located in your home directory, i.e. /Users/you/Desktop)
 
-`> cd /Users/ekl/Documents/github` : go to a particular place by writing out the whole path, e.g. /Users/ekl/Documents/github
+`cd /Users/ekl/Documents/github` : go to a particular place by writing out the whole path, e.g. /Users/ekl/Documents/github
 
-`> cd ..` : go back up the path, e.g. /Users/ekl/Documents (from Documents/github)
+`cd ..` : go back up the path, e.g. /Users/ekl/Documents (from Documents/github)
 
-`> cd ../..` : go back up the path two steps, e.g. /Users/ekl (from /Users/ekl/Documents/github)
+`cd ../..` : go back up the path two steps, e.g. /Users/ekl (from /Users/ekl/Documents/github)
 
-`> cd ~` : go back to the root directory, e.g. /Users/ekl
+`cd ~` : go back to the root directory, e.g. /Users/ekl
+
+`head MLB_Salaries.csv` : print the first 10 lines of the file MLB_Salaries.csv (which should be in your current directory)
+
+`tail MLB_Salaries.csv` : print the last 10 lines of the file MLB_Salaries.csv (which should be in your current directory)
+
+`wc -l MLB_Salaries.csv` : print the number of rows (lines), i.e. 877
 
 
 # PC (Powershell)
@@ -48,17 +54,19 @@ When you’re in the command line, you are always in a particular place on your 
 
 _Examples_ 
 
-`> pwd` : C:/Users/ekl
+`pwd` : C:/Users/ekl
 
-`> cd Desktop` : go to a folder in your current working directory, e.g. C:/Users/ekl/Desktop
+`cd Desktop` : go to a folder in your current working directory, e.g. C:/Users/ekl/Desktop
 
-`> cd C:/Users/ekl/Documents/github` : go to a particular place by writing out the whole path, e.g. C:Users/ekl/Documents/github
+`cd C:/Users/ekl/Documents/github` : go to a particular place by writing out the whole path, e.g. C:Users/ekl/Documents/github
 
-`> cd ..` : go back up the path, e.g. C:/Users/ekl/Documents (from Documents/github)
+`cd ..` : go back up the path, e.g. C:/Users/ekl/Documents (from Documents/github)
 
-`> cd ../..` : go back up the path two steps, e.g. C:/Users/ekl (from C:/Users/ekl/Documents/github)
+`cd ../..` : go back up the path two steps, e.g. C:/Users/ekl (from C:/Users/ekl/Documents/github)
 
-`cat MLB_Salaries.csv | select -First 10` : print the first 10 lines of the file MLB_Salaries.csv
+`cat MLB_Salaries.csv | select -First 10` : print the first 10 lines of the file MLB_Salaries.csv (which should be in your current directory)
 
-`cat MLB_Salaries.csv | measure -line` : count the rows (lines) in MLB_Salaries.csv
+`cat MLB_Salaries.csv | select -Last 10` : print the last 10 lines of the file MLB_Salaries.csv (which should be in your current directory)
+
+`cat MLB_Salaries.csv | measure -line` : count the rows (lines), i.e. 877
  
